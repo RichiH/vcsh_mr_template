@@ -1,0 +1,5 @@
+[$HOME/.config/vcsh/repo.d/mr.git]
+checkout = vcsh clone git://github.com/RichiH/vcsh_mr_template.git
+update = vcsh run mr git pull
+push = vcsh run mr git push
+status = vcsh run mr git status
