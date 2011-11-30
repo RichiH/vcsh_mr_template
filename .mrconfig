@@ -1,5 +1,6 @@
 [DEFAULT]
 git_gc = git gc "$@"
 jobs = 5
+include = cat /usr/share/mr/vcsh
 
 include = cat ~/.config/mr/config.d/*
